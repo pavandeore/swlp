@@ -48,6 +48,9 @@ ul li{
     margin: 15px auto;
     width: 60vw;
 }
+#b-1-desc p{
+    text-align: justify;
+}
 #b-1-social{
     margin: 10px auto;
     width: 50vw;
