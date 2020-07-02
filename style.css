@@ -13,13 +13,13 @@ a{
 ul li{
     list-style: none;
 }
-#nav{
-    background: coral;
-    width: 80vw;
+#nav{  
+    width: 90vw;
     margin: 0 0 auto auto;
 }
 #nav ul{
     display: flex;
+    background: coral;
     justify-content: space-evenly;
     margin: 0px;
     padding: 0px;
@@ -46,14 +46,14 @@ ul li{
 }
 #b-1-desc {
     margin: 15px auto;
-    width: 60vw;
+    width: 70vw;
 }
 #b-1-desc p{
     text-align: justify;
 }
 #b-1-social{
     margin: 10px auto;
-    width: 50vw;
+    width: 60vw;
 }
 #b-1-social ul {
     display: flex;
@@ -61,4 +61,27 @@ ul li{
 }
 #b-1-social ul li a{
     font-size: 30px;
+}
+@media (max-width:600px){
+    #nav{
+        width: 100vw;
+    }
+    #nav ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 40px);
+    }
+    #nav ul li{
+        padding: 15px;
+        background: coral;
+    }
+    #nav ul li:hover{
+        background: darkslateblue;
+        transition: 0.5s;
+        color: floralwhite;
+    }
+    #b-1-social{
+        margin: 10px auto;
+        width: 100vw;
+    }
 }
