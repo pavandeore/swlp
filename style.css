@@ -1,0 +1,48 @@
+*{
+    font-size: 17px;
+    font-family: arial;
+}
+html body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+#nav{
+    background: coral;
+    width: 80vw;
+    margin: 0 0 auto auto;
+}
+#nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+#nav ul li{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+#nav ul li:hover{
+    background: darkslateblue;
+    transition: 0.5s;
+    color: floralwhite;
+}
+#b-1-carousel{
+    height: 40vh;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#b-1-carousel figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
