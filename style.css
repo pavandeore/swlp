@@ -34,15 +34,28 @@ ul li{
     color: floralwhite;
 }
 #b-1-carousel{
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
-    margin: 0 auto;
-    overflow: hidden;
 }
-#b-1-carousel figure{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
+#b-1-quote p{
+    padding: 10px;
+    background: rgb(49, 49, 88);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+#b-1-desc {
+    margin: 15px auto;
+    width: 60vw;
+}
+#b-1-social{
+    margin: 10px auto;
+    width: 50vw;
+}
+#b-1-social ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+#b-1-social ul li a{
+    font-size: 30px;
 }
