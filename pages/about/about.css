@@ -1,0 +1,35 @@
+*{
+    font-size: 17px;
+    font-family: arial;
+}
+html body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+nav{  
+    width: 90vw;
+    margin: 0 0 auto auto;
+}
+nav ul{
+    display: flex;
+    background: coral;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background: darkslateblue;
+    transition: 0.5s;
+    color: floralwhite;
+}
